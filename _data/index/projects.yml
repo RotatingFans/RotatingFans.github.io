@@ -1,0 +1,37 @@
+# projects section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: 'Temperature Sensor Platform'
+  i18n: 'TempSense'
+  gh_user: 'RotatingFans'
+  repo: 'AvrNrfNode'
+  img: '/static/assets/img/landing/TempSens.png'
+  desc: 'This is a project based on an ATTiny44 chip that wirelessly encrypts and transmits the room temperature to a central hub.'
+
+- name: 'Home Center Dashboard'
+  i18n: 'HCD'
+  gh_user: 'RotatingFans'
+  repo: 'Home-center-dashboard'
+  img: '/static/assets/img/landing/HCD.png'
+  desc: "A simple dashboard forked from haegi.org, but the original repo has since been taken down. It displays data from a database in simple graphs in addition to weather and controls for home automation systems."
+
+- name: 'Lychee'
+  i18n: 'Lychee'
+  gh_user: 'RotatingFans'
+  repo: 'Lychee'
+  img: '/static/assets/img/landing/Lychee.png'
+  desc: "This is a web based image manager and view I forked from electerious. I modified to support sub albums, but the code was redone and rewritten since my version. I modified that version to support icons to traverse albums."
+
+- name: 'LycheeSync'
+  i18n: 'LycheeSync'
+  gh_user: 'RotatingFans'
+  repo: 'lycheesync'
+  img: '/static/assets/img/landing/LycheeSync.png'
+  desc: "This is a python script which will traverse and watch a directory and add the respecting images to the database for the Lychee software. I forked the original script from GustavePate to allow for the subalbum feature."
+
+- name: 'Fundraising Software'
+  i18n: 'FundSoft'
+  #gh_user: 'RotatingFans'
+  #repo: 'LeetCode'
+  img: '/static/assets/img/landing/FundSoft.png'
+  desc: "This is a peice of software written in Java which allows orders to be recorded and kept for my Boy Scout troop's annual Fundraiser. It features order/customer management, year based seperation, and a map to keep track of who to ask for orders. Source code to be released soon."
+

@@ -1,0 +1,183 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Started with a 3D printer
+    i18n: 3dPrint
+  desc:
+    detail: I bought a Hictop 3D printer. I have since learned quite a lot about operation as well as more advanced 3d modeling.
+    i18n: 3dPrint_des
+  date:
+    detail: Late 2016
+    i18n: 3dPrint_date
+  job:
+    detail: 3D design
+    i18n: 3dPrint_job
+  icon: icon-3dprint
+
+- name:
+    detail: Started Web Design
+    i18n: WebDev
+  desc:
+    detail: As part of an FBLA competition, I developed a website for a theoretical Family Entertainment Center. I did not make it to state level competition, but I learned the aspects in designing a website with a blank file to start.
+    i18n: WebDev_des
+  date:
+    detail: Late 2016
+    i18n: WebDev_date
+  job:
+    detail: Web Developer and Designer
+    i18n: WebDev_job
+  icon: fa-css3
+
+- name:
+    detail: Started with 3D animation
+    i18n: animate
+  desc:
+    detail: For a school project, I modeled the movement and muscle connections of the human eye using Unity and blender. Available in my blog.
+    i18n: animate_des
+  date:
+    detail: Late 2016
+    i18n: animate_date
+  job:
+    detail: 3D Animation
+    i18n: animate_job
+  icon: fa-cubes
+
+- name:
+    detail: Started my first full embedded project
+    i18n: tempSens
+  desc:
+    detail: I started working on a wireless temperature sensor based on an ATTiny44 and NRF24l01+ witha central rPi hub. Taught me CPP and pure C along with encryption Algorithms. In debugging, I learned reading memory and stepping through assembler calls.
+    i18n: tempSens_des
+  date:
+    detail: Late 2016
+    i18n: tempSens_date
+  job:
+    detail: Hardware Engineer and Software Engineer
+    i18n: tempSens_job
+  icon: fa-thermometer
+
+- name:
+    detail: Started my server administration
+    i18n: Server
+  desc:
+    detail: I bought my first server, an HP DL180 G6. It runs OpenMediaVault, and some other services such as mysql, plex, and tvheadend. I have since purchased a Dell PE R715 with two 12 core processers and 24GB of RAM for virtualization.
+    i18n: Server_des
+  date:
+    detail: February 2016
+    i18n: Server_date
+  job:
+    detail: Systems Admin
+    i18n: Server_job
+  icon: fa-server
+
+- name:
+    detail: Started Web Development
+    i18n: WebDev
+  desc:
+    detail: As part of someone else's Eagle Scout Project, we completely redid a local Fire Comapny's website. I learned how to develop in a group environment, gained an introduction to github, and acquired a vast majority of my HTML, CSS, and JS knowledge.
+    i18n: WebDev_des
+  date:
+    detail: Late 2015 - Early 2016
+    i18n: WebDev_date
+  job:
+    detail: Web Developer
+    i18n: WebDev_job
+  icon: fa-html5
+
+- name:
+    detail: Fundraising Software
+    i18n: Fundraise
+  desc:
+    detail: My largest project at over 6000 lines, a peice of software for my Boy Scout Troop's annual fundraiser. It was my first Java Project, and I am approaching version 1.0 as of early 2017.
+    i18n: Fundraise_des
+  date:
+    detail: Early 2015
+    i18n: Fundraise_date
+  job:
+    detail: Java Developer
+    i18n: Fundraise_job
+  icon: fa-usd
+
+- name:
+    detail: Started my Photography path
+    i18n: Photography
+  desc:
+    detail: My family bought our first DSLR camera, a Nikon D3100. With this camera, I started to gain an eye for artistic photography. The links to my Flickr and store are in the links section.
+    i18n: Photography_des
+  date:
+    detail: Late 2014
+    i18n: Photography_date
+  job:
+    detail: Hobbyist Photographer
+    i18n: Photography_job
+  icon: fa-camera
+
+- name:
+    detail: I started designing circuit boards
+    i18n: pcb
+  desc:
+    detail: In order to mill on the CNC mill, I needed to design boards to mill. I started using Eagle and modeled a lower power board after the Arduino. Other designs include a power board for my star tracker and a wireless temperature sensor among other test designs.
+    i18n: pcb_des
+  date:
+    detail: Early 2014
+    i18n: pcb_date
+  job:
+    detail: Hardware Engineering
+    i18n: pcb_job
+  icon: fa-microchip
+
+- name:
+    detail: I started Milling
+    i18n: Mill
+  desc:
+    detail: I purchased a Shapeoko 2 and some circuit board blanks. I started milling circuit boards with my first success done in mid 2016. I also milled wood, making a wedding gift for my sister.
+    i18n: Mill_des
+  date:
+    detail: Early 2014
+    i18n: Mill_date
+  job:
+    detail: CNC Experience
+    i18n: Mill_job
+  icon: fa-gears
+
+- name:
+    detail: Started with Raspberry Pi
+    i18n: rPi
+  desc:
+    detail: I was gifted a raspberry Pi. I used it as a robot controller and RGB Light strip controller, interfacing through the Arduino. Doing so gave me my first introduction to Python and a brief intorduction to web based languanges.
+    i18n: rPi_des
+  date:
+    detail: Late 2014.
+    i18n: rPi_date
+  job:
+    detail: Hardware Engineering & Software Development
+    i18n: rPi_job
+  icon: fa-usb
+
+- name:
+    detail: Started hardware development
+    i18n: ucloud
+  desc:
+    detail: In late 2013, I was gifted an arduino starter kit. I didn't do much at first, but I did learn dumbed down C++ in the process
+    i18n: ucloud_des
+  date:
+    detail: Late 2013
+    i18n: ucloud_date
+  job:
+    detail: Hardware Engineer
+    i18n: hardware_job
+  icon: fa-microchip
+
+- name:
+    detail: Started my development career
+    i18n: start
+  desc:
+    detail: Around the turn of 2010, I wrote my first fully fledged program - a Point of Sale software written in VB.NET.
+    i18n: start_des
+  date:
+    detail: Late 09 to Early 2010
+    i18n: start_date
+  job:
+    detail: Software Development
+    i18n: start_job
+  icon: fa-code

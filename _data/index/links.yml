@@ -1,0 +1,12 @@
+# links section data
+- last_name: My Photography Site
+  first_name:
+  desc: 'View and order some of my photos'
+  website: 'http://fineartamerica.com/profiles/glass-cylinder.html?tab=artwork'
+
+- last_name: Flickr
+  first_name:
+  desc: 'View my Flickr account.'
+  website: 'https://www.flickr.com/photos/146248598@N03'
+
+
