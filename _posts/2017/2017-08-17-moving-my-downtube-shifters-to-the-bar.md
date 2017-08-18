@@ -39,7 +39,7 @@ At this point, I decided to change from the clunky FreeCAD and Blender solution 
 
 At this point I took it on a longer ride around the neighborhood. The peg on the front shifter block sheared off halfway through the ride.
 
-To combat the stress  being put on the peg, I increased the depth the base block and changed out the built-in thumbscrews on the shifters with normal screws. This was a ~~painful~~ fun process of getting them to the correct length. After 6 screws and two trips to home depot, the screws were the correct length. During my trials of screw length, I managed to strip the holes in the shifter blocks due to their limited depth. I went to print another copy of each and ran of filament halfway through. The next day I printed them in orange which actually ended up looking okay as a final product.
+To combat the stress  being put on the peg, I increased the depth the base block and changed out the built-in thumbscrews on the shifters with normal screws. This was a ~~painful~~ fun process of getting them to the correct length. After 6 screws and two trips to home depot, the screws were the correct length. During my trials of screw length, I managed to strip the holes in the shifter blocks due to their limited depth. I went to print another copy of each and ran out of filament halfway through. The next day I printed them in orange which actually ended up looking okay as a final product.
 
 While I had the rear shifter unscrewed, I could see how it functioned. It is very simple, a small ball bearing travels over little groves. By putting it in indexed mode, this bearing is pushed into the groves as opposed to friction where it doesn't touch them.
 
