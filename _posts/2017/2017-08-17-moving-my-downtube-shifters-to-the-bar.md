@@ -50,3 +50,6 @@ When installing these new brackets I needed to remove the cables, but at this po
 The files are available for download on [thingiverse](https://www.thingiverse.com/thing:2489916).
 
 I printed the pieces in Hatchbox PLA at 75% infill, .2mm layer height with 3 perimeters, supports, and a rectilinear infill pattern
+
+The Bike:
+![The Bike](static/assets/img/blog/2017/08/DSC_6791_WebRes.JPG)
