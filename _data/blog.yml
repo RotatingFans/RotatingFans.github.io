@@ -7,17 +7,20 @@
   href: '/Software/'
 
 - name: Linux
-  href: '/linux/'
+  href: '/Linux/'
 
 - name: Servers
   href: '/Servers/'
 
-- name: CNC
-  href: '/CNC/'
+- name: CNC/3D Printing
+  href: '/3D/'
 
 - name: Hardware
   href: '/Hardware/'
 
 - name: Photography
   href: '/Photography/'
+
+
+
 

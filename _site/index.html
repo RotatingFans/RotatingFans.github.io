@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 	
 		<head>
@@ -12,14 +12,17 @@
   <meta name="author" content="rotatingFans">
   <title>RotatingFans blog</title>
   <!-- favicon -->
-  <link rel="shortcut icon" href="/static/img/favicon.ico">
+  <link rel="shortcut icon" href="/static/assets/img/favicon.ico">
 
   <!-- Main CSS -->
-  <link href="/static/assets/app-index-20170129.min.css" rel="stylesheet">
+  <link href="/static/assets/app-20170818.min.css" rel="stylesheet">
 
   <!-- Main scripts -->
-  <script src="/static/assets/app-index-20170129.min.js"></script>
-
+  <script src="/static/assets/app-index-20170818.min.js"></script>
+  
+  <script async defer src="/static/js/github_api.min.js"></script>
+  
+  
 </head>
 
 	
@@ -29,63 +32,75 @@
 	
 
         <div class="navbar-wrapper">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">RotatingFans blog</span></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                
-                    <li>
-                      <a class="page-scroll" href="#about-me">
-                        <span data-i18n="nav.about_me">About</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#milestones">
-                        <span data-i18n="nav.milestones">milestones</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#skills">
-                        <span data-i18n="nav.skills">Skills</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#projects">
-                        <span data-i18n="nav.projects">Projects</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#blog">
-                        <span data-i18n="nav.blog">Blog</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#links">
-                        <span data-i18n="nav.link">Links</span>
-                      </a>
-                    </li>
-                
-
-                
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">RotatingFans blog</span></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+          
+          <li>
+            
+              <a class="page-scroll" href="#about-me ">
+            
+              <span data-i18n="nav.about_me">About</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#milestones ">
+            
+              <span data-i18n="nav.milestones">milestones</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#skills ">
+            
+              <span data-i18n="nav.skills">Skills</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#projects ">
+            
+              <span data-i18n="nav.projects">Projects</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#blog ">
+            
+              <span data-i18n="nav.blog">Blog</span>
+            </a>
+          </li>
+          
+          <li>
+            
+              <a class="page-scroll" href="#links ">
+            
+              <span data-i18n="nav.link">Links</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
 </div>
+
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#inSlider" data-slide-to="0" class="active"></li>
@@ -123,9 +138,10 @@
 </div>
 
 
-  
-  <section id="about-me" class="features  " style="margin-top: 0;">
-    <div class="container" id="i18_about_me">
+
+
+<section id="about-me" class="features  " style="margin-top: 0;">
+  <div class="container" id="i18_about_me">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
@@ -139,7 +155,7 @@
         <div class="col-xs-2 wow fadeInLeft">
             <div class="team-member">
                 <div class="vote-icon">
-                    <i class="icon-shell"></i>
+                    <i class="fa icon-shell"></i>
                 </div>
             </div>
         </div>
@@ -147,7 +163,7 @@
         <div class="col-xs-2 wow fadeInLeft">
             <div class="team-member">
                 <div class="vote-icon">
-                    <i class="icon-c"></i>
+                    <i class="fa icon-c"></i>
                 </div>
             </div>
         </div>
@@ -155,25 +171,21 @@
         <!-- avatar -->
         <div class="col-xs-4">
             <div class="team-member wow zoomIn">
-                <img src="/static/assets/img/landing/RF.jpg" height="110" width="110" class="img-responsive" alt="">
+                <img src="/static/assets/img/landing/RF.jpg" height="110" width="110" class="img-responsive img-circle" alt="">
                 <h4><span class="navy">Patrick</span> Magauran</h4>
                 <ul class="list-inline contact-icon">
-                    <li>
-                        <a href="https://github.com/rotatingFans" target="blank"><i class="fa fa-github"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="mailto:patmagauran.j@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                    </li>
-                    <li>
-                        <a href="/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
-                    </li>
                     
-                    <li>
-                        <a href="" target="blank"><i class="fa fa-file-pdf-o"></i></a>
-                    </li>
+                    <li><a href="https://github.com/rotatingFans" target="blank"><i class="fa fa-github"></i></a></li>
+                    
+                    
+                    
+                    
+                    
+                    <li><a href="mailto:patmagauran.j@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li><a href="/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li>
+                    
+                    <li><a href="" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
                     
                 </ul>
             </div>
@@ -183,7 +195,7 @@
         <div class="col-xs-2 wow fadeInRight">
             <div class="team-member">
                 <div class="vote-icon">
-                    <i class="icon-html"></i>
+                    <i class="fa icon-html"></i>
                 </div>
             </div>
         </div>
@@ -191,7 +203,7 @@
         <div class="col-xs-2 wow fadeInRight">
             <div class="team-member">
                 <div class="vote-icon">
-                    <i class="icon-java-bold"></i>
+                    <i class="fa icon-java-bold"></i>
                 </div>
             </div>
         </div>
@@ -204,11 +216,11 @@
     </div>
 </div>
 
-  </section>
+</section>
 
-  
-  <section id="milestones" class="features  gray-section  timeline" style="margin-top: 0;">
-    <div class="container" id="i18_career">
+
+<section id="milestones" class="features  gray-section  timeline" style="margin-top: 0;">
+  <div class="container" id="i18_career">
     <div class="row">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
@@ -393,11 +405,11 @@
     </div>
 </div>
 
-  </section>
+</section>
 
-  
-  <section id="skills" class="features  team" style="margin-top: 0;">
-    <div class="container">
+
+<section id="skills" class="features  team" style="margin-top: 0;">
+  <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center" id="i18_skills">
             <div class="navy-line"></div>
@@ -405,155 +417,47 @@
         </div>
     </div>
     <div class="row features-block">
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>Python</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 25%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
+        <div class="wow zoomIn col-lg-6 col-lg-offset-3">
+            <canvas id="cs" height="500" width="500"></canvas>
         </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInRight ">
-                <p>HTML/CSS</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInLeft ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>Linux/Shell</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 50%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInRight ">
-                <p>JavaScript</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInLeft ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>jQuery</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 75%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInRight ">
-                <p>C</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInLeft ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>C++</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInRight ">
-                <p>Java</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInLeft ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 90%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>Go</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 5%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInRight ">
-                <p>VB.Net</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInLeft ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
+        <div class="col-lg-1"></div>
+        <script>
+        var ctx = document.getElementById("cs");
+        var data = {
+            labels: "Python, HTML/CSS, Linux/Shell, JavaScript, jQuery, C, C++, Java, Go, VB.Net".split(","),
+            datasets: [{
+                label: "Ability",
+                backgroundColor: "rgba(179,181,198,0.2)",
+                borderColor: "#3385FF",
+                pointBackgroundColor: "#3385FF",
+                pointBorderColor: "#fff",
+                pointHoverBackgroundColor: "#3385FF",
+                pointHoverBorderColor: "#3385FF",
+                data: [25, 70, 50, 70, 75, 80, 70, 90, 5, 40]
+                }]
+        };
+        var myRadarChart = new Chart(ctx, {
+            type: 'radar',
+            data: data,
+            options: {
+                scale: {
+                    responsive: true,
+                    ticks: {min: 0, max: 100},
+                    lineArc: false,
+                    pointLabels: {fontSize: 14},
+                },
+                legend: {display: false},
+            }
+        });
+        </script>
     </div>
 </div>
 
-  </section>
+</section>
 
-  
-  <section id="projects" class="features  gray-section  project" style="margin-top: 0;">
-    <div class="container" id="i18_projects">
+
+<section id="projects" class="features  gray-section  project" style="margin-top: 0;">
+  <div class="container" id="i18_projects">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
@@ -652,9 +556,7 @@
       
             
             
-                
-            <div class="col-sm-6 wow  fadeInLeft col-sm-offset-3 ">
-                
+            <div class="col-sm-6 wow  fadeInLeft ">
             
               <div class="team-member">
                   <img src="/static/assets/img/landing/FundSoft.png" class="img-responsive img-circle img-small" alt="">
@@ -668,15 +570,39 @@
               </div>
           </div>
       
+            
+            
+                
+            <div class="col-sm-6 wow  fadeInRight ">
+                
+            
+              <div class="team-member">
+                  <img src="/static/assets/img/landing/FEC.png" class="img-responsive img-circle img-small" alt="">
+                  <h4>
+                  
+                  <a href="https://github.com/RotatingFans/FEC" target="_blank"><span class="navy">FEC</span></a>
+                  
+                  </h4>
+                  <p><span data-i18n="projects.FEC">I made this site for a FBLA competition during late 2016. It is my first site where I started with a blankfile and an idea and ended witha functional website.</span></p>
+                  
+                  <div user="RotatingFans" repo="FEC" class="ghbtn">
+                      <a target="_blank" style="width: 65px;" href="https://github.com/RotatingFans/FEC/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                      <a target="_blank" style="width: 65px;" href="https://github.com/RotatingFans/FEC/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  
+              </div>
+          </div>
+      
     </div>
 </div>
 <br>
 
-  </section>
+</section>
 
-  
-  <section id="blog" class="features  testimonials navy-section" style="margin-top: 0;">
-    <div class="container">
+
+<section id="blog" class="features  testimonials navy-section" style="margin-top: 0;">
+  <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
             <div style="height: 80px;"></div>
@@ -686,11 +612,11 @@
     </div>
 </div>
 
-  </section>
+</section>
 
-  
-  <section id="links" class="features  gray-section  contact" style="margin-top: 0;">
-    <div class="container" id="i18_link">
+
+<section id="links" class="features  gray-section  contact" style="margin-top: 0;">
+  <div class="container" id="i18_link">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
@@ -706,10 +632,11 @@
         <div class="team-member">
             <h4><span class="navy">My Photography Site</span> </h4>
             <p>View and order some of my photos</p>
-            <ul class="list-inline contact-icon">
+            <ul class="list-inline social-icon">
                 <li><a href="http://fineartamerica.com/profiles/glass-cylinder.html?tab=artwork" target="blank"><i class="fa fa-link"></i></a>
                 </li>
-				
+                <li><a href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                </li>
             </ul>
         </div>
         </div>
@@ -723,10 +650,11 @@
         <div class="team-member">
             <h4><span class="navy">Flickr</span> </h4>
             <p>View my Flickr account.</p>
-            <ul class="list-inline contact-icon">
+            <ul class="list-inline social-icon">
                 <li><a href="https://www.flickr.com/photos/146248598@N03" target="blank"><i class="fa fa-link"></i></a>
                 </li>
-				
+                <li><a href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                </li>
             </ul>
         </div>
         </div>
@@ -734,25 +662,45 @@
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-            <p id="jalpc_site_pv"><strong>&copy; 2017 RotatingFans blog | Design forked from JiaKunUp's Jalpc Jekyll Theme</strong></p>
+            <p id="jalpc_site_pv"><strong>&copy; 2017 RotatingFans blog</strong></p>
         </div>
     </div>
 </div>
 
-  </section>
+</section>
 
+<style>
+iframe {
+  -moz-transform: scale(0.25, 0.25);
+  -webkit-transform: scale(0.25, 0.25);
+  -o-transform: scale(0.25, 0.25);
+  -ms-transform: scale(0.25, 0.25);
+  transform: scale(0.25, 0.25);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+</style>
 
 
 
 
 	
-		
-<script async defer src="/static/js/github_api.min.js"></script>
+		<!-- Google analytics -->
 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-104907880-1', 'auto');
+    ga('require', '');
+    ga('send', 'pageview');
 
-
-<!-- Google analytics -->
+  </script>
 
 
 <!-- GrowingIO -->

@@ -1,30 +1,6 @@
 # skills section data
-- name: Python
-  percentage: 25
 
-- name: HTML/CSS
-  percentage: 70
-
-- name: Linux/Shell
-  percentage: 50
-
-- name: JavaScript
-  percentage: 70
-
-- name: jQuery
-  percentage: 75
-
-- name: C
-  percentage: 80
-
-- name: C++
-  percentage: 70
-
-- name: Java
-  percentage: 90
-
-- name: Go
-  percentage: 5
-
-- name: VB.Net
-  percentage: 40
+label: Ability
+id : cs
+aspects: Python, HTML/CSS, Linux/Shell, JavaScript, jQuery, C, C++, Java, Go, VB.Net
+percentage: 25, 70, 50, 70, 75, 80, 70, 90, 5, 40

@@ -1,0 +1,5 @@
+UglifyJS	build.js	/^var UglifyJS = require('uglify-js');$/;"	v
+CleanCSS	build.js	/^var CleanCSS = require('clean-css');$/;"	v
+fs	build.js	/^var fs = require('fs');$/;"	v
+compressjs	build.js	/^function compressjs(filename, filelist){$/;"	f
+compresscss	build.js	/^function compresscss(filename, filelist) {$/;"	f

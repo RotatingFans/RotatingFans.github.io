@@ -6234,7 +6234,7 @@ table.shoping-cart-table tr td:last-child {
 .vote-icon {
     text-align: right;
     font-size: 38px;
-    color: #cfcfcf
+    color: #e8e9ea
 }
 
 .lightBoxGallery,
@@ -7578,11 +7578,10 @@ body.landing-page {
     right: 10px;
     top: 150px
 }
-/*
+
 .landing-page .carousel-indicators {
-    padding-right: 60px
 }
-*/
+
 .landing-page .carousel-caption h1 {
     font-weight: 700;
     font-size: 38px;
@@ -7731,8 +7730,7 @@ body.landing-page {
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #3385FF;
-    background: url(../img/landing/avatar_all.png) 50% 0 no-repeat;
-    background-size: cover;
+    background-image: url(../img/landing/avatar_all.png)
 }
 
 .landing-page .big-icon {
