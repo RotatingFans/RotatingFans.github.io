@@ -24,7 +24,10 @@ button.dim {
 .todo-list {
     list-style: none
 }
-
+img {
+  max-width: 100%;
+height: auto;
+}
 h1,
 h2,
 h3,
