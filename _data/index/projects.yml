@@ -35,7 +35,7 @@
   #repo: 'LeetCode'
   img: 'https://abos-software.gitlab.io/favicon.png'
   desc: "This is a peice of software written in Java which allows orders to be recorded and kept for my Boy Scout troop's annual Fundraiser. It features order/customer management, year based seperation, and a map to keep track of who to ask for orders. Source code to be released soon."
-  link: 'https://abos-software.gitlab.io'
+  url: 'https://abos-software.gitlab.io'
 
 - name: 'FEC'
   i18n: 'FEC'
